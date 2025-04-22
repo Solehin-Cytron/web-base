@@ -1,96 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
-    <nav class="navbar container">
-      <a href="#home" class="logo">YourName</a>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <ul class="nav-menu">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+    <nav>
+      <h1>YourName</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section id="home" class="hero container">
-      <h1>Hello, I'm Your Name</h1>
+  <section id="home">
+    <div>
+      <h2>Hello, I'm Your Name</h2>
       <p>A passionate web developer crafting clean and modern websites.</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </section>
+      <a href="#projects">View My Work</a>
+    </div>
+  </section>
 
-    <section id="about" class="container section">
-      <h2>About Me</h2>
-      <p>
-        I am a web developer based in Ipoh, Perak, specializing in building
-        responsive, user-friendly websites. I love minimalist design and clean code.
-      </p>
-    </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer based in Ipoh, Perak, specializing in building responsive, user-friendly websites. I love minimalist design and clean code.</p>
+  </section>
 
-    <section id="projects" class="container section">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <article class="project-card">
-          <h3>Project One</h3>
-          <p>A brief description of your project.</p>
-          <a href="#" target="_blank" rel="noopener" class="btn btn-sm">View Project</a>
-        </article>
-        <article class="project-card">
-          <h3>Project Two</h3>
-          <p>A brief description of your project.</p>
-          <a href="#" target="_blank" rel="noopener" class="btn btn-sm">View Project</a>
-        </article>
-        <article class="project-card">
-          <h3>Project Three</h3>
-          <p>A brief description of your project.</p>
-          <a href="#" target="_blank" rel="noopener" class="btn btn-sm">View Project</a>
-        </article>
-      </div>
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <article>
+      <h3>Project One</h3>
+      <p>A brief description of your project.</p>
+      <a href="#">View Project</a>
+    </article>
+    <article>
+      <h3>Project Two</h3>
+      <p>A brief description of your project.</p>
+      <a href="#">View Project</a>
+    </article>
+    <article>
+      <h3>Project Three</h3>
+      <p>A brief description of your project.</p>
+      <a href="#">View Project</a>
+    </article>
+  </section>
 
-    <section id="skills" class="container section">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>HTML5 & CSS3</li>
-        <li>JavaScript (ES6+)</li>
-        <li>React.js</li>
-        <li>Node.js & Express</li>
-        <li>Git & GitHub</li>
-        <li>Responsive Design</li>
-      </ul>
-    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>Node.js & Express</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
 
-    <section id="contact" class="container section">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out for collaborations or just a friendly hello!</p>
-      <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit" class="btn">Send</button>
-      </form>
-    </section>
-  </main>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-  <footer class="footer container">
+  <footer>
     <p>© 2025 Your Name. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
